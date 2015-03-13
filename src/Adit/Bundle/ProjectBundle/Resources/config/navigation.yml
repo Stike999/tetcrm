@@ -1,0 +1,21 @@
+oro_menu_config:
+    items:
+       adit_tab:
+           label: Projekti i Natječaji
+           uri:   '#'
+           extras:
+               position: 300
+       adit_tab_link:
+           label: Projekti
+           route: adit_simple_index
+           extras:
+               routes: ['/^adit_simple_index/']
+               description: Adit Project link
+    tree:
+       application_menu:
+           children:
+               adit_tab:
+                   children:
+                       adit_tab_link: ~
+oro_titles:
+    adit_simple_index: Adit Project

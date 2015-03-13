@@ -1,0 +1,7 @@
+adit_simple:
+    project:
+        id.label:              Id
+        naziv.label:         "Naziv"
+        entity_plural_label:   "Projekti"
+        new: "Dodaj Projekt"
+        entity_subject: "Novi projekt"

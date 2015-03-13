@@ -1,7 +1,7 @@
 orocrm:
     marketinglist:
-        entity_label:        Marketinški Popis
-        entity_plural_label: Marketinški Popisi
+        entity_label:        Mailing lista
+        entity_plural_label: Mailing liste
         description.label:   Opis
         id.label:            Id
         last_run.label:      Zadnje Korišteno
@@ -11,9 +11,9 @@ orocrm:
         organization.label:  Organizacija
         segment.label:       Segment
 
-        marketing_list_items.label:              Stavka Marketinškog Popisa
-        marketing_list_removed_items.label:      Obrisane Stavke Marketinškog Popisa
-        marketing_list_unsubscribed_items.label: Odjavljene Stavke Marketinškog Popisa
+        marketing_list_items.label:              Stavka Mailing Liste
+        marketing_list_removed_items.label:      Obrisane Stavke Mailing Liste
+        marketing_list_unsubscribed_items.label: Odjavljene Stavke Mailing Liste
 
         controller:
             unsubscribed: %entityName% odjavljeno
@@ -21,13 +21,13 @@ orocrm:
             removed: %entityName% obrisano s popisa
             unremoved: Uspješno poništeno
 
-        segment: Marketinški popis %name% segment
+        segment: Mailing lista %name% segment
 
-        refresh_list: Ažuriraj popis
+        refresh_list: Ažuriraj listu
 
         entity:
             label:   Objekt
-            saved:   Marketinški popis spremljen
+            saved:   Mailing lista spremljen
 
         type:
             label:   Tip
@@ -36,8 +36,8 @@ orocrm:
             manual:  Ručni
 
         form:
-            choose_marketing_list_type:    Odaberi tip marketinškog popisa
-            choose_marketing_list:         Odaberi marketinški popis
+            choose_marketing_list_type:    Odaberi tip mailing liste
+            choose_marketing_list:         Odaberi mailing listu
             importance: Važno
             columns_notice: Najmanje jedan stupac sa kontakt informacijama mora biti odabran. Dostupne kontakt informacije
 
@@ -70,33 +70,33 @@ orocrm:
             remove: Obriši
 
         marketinglistitem:
-            entity_label: Stavka Marketinškog Popisa
-            entity_plural_label: Stavke Marketinškog Popisa
+            entity_label: Stavka Mailing Liste
+            entity_plural_label: Stavke Mailing Liste
             contacted_times.label: Puta Kontaktirano
             created_at.label: Napravljeno
             entity_id.label: Id Objekta
             id.label: Id
             last_contacted_at.label: Zadnji Put Kontaktirano
-            marketing_list.label: Marketinški Popis
+            marketing_list.label: Mailing Lista
 
         marketinglistunsubscribeditem:
-            entity_label: Marketinški Popis Odjavljenih Stavki
-            entity_plural_label: Marketinški Popis Odjavljenih Stavki
+            entity_label: Mailing Lista Odjavljenih Stavki
+            entity_plural_label: Mailing Lista Odjavljenih Stavki
             created_at.label: Napravljeno
             entity_id.label: Id Objekta
             id.label: Id
-            marketing_list.label: Marketinški Popis
+            marketing_list.label: Mailing Lista
 
         marketinglisttype:
-            entity_label: Tip Marketinškog Popisa
-            entity_plural_label: Tipovi Marketinškog Popisa
+            entity_label: Tip Mailing Liste
+            entity_plural_label: Tipovi Mailing Liste
             label.label: Oznaka
             name.label: Ime
 
         marketinglistremoveditem:
-            entity_label: Marketinški Popis Obrisanih Stavki
-            entity_plural_label: Marketinški Popis Obrisanih Stavki
+            entity_label: Mailing Lista Obrisanih Stavki
+            entity_plural_label: Mailing Lista Obrisanih Stavki
             created_at.label: Napravljeno
             entity_id.label: Id Objekta
             id.label: Id
-            marketing_list.label: Marketinški Popis
+            marketing_list.label: Mailing Lista

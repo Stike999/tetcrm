@@ -1,0 +1,14 @@
+{% extends 'OroUIBundle:actions:index.html.twig' %}
+{% import 'OroDataGridBundle::macros.html.twig' as dataGrid %}
+{% set pageTitle = 'adit_simple.project.entity_plural_label'|trans %}
+{% set gridName = 'adit-simple-grid' %}
+
+{% block navButtons %}
+        <div class="btn-group">
+            {{ UI.addButton({
+                'path' : path('adit_simple_create'),
+                'title' : 'adit_simple.project.new'|trans,
+                'label' : 'adit_simple.project.new'|trans
+            }) }}
+        </div>
+{% endblock %}

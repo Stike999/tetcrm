@@ -1,0 +1,4 @@
+adit_simple_index:
+    resource:     "@AditProjectBundle/Controller/DefaultController.php"
+    type:         annotation
+    prefix:       /adit

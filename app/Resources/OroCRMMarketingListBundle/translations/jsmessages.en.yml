@@ -5,7 +5,7 @@ orocrm:
     marketinglist:
         refresh_dialog:
             content: Potvrdite ažuriranje popisa
-            success: Marketinški popis uspješno ažuriran
+            success: Mailing lista uspješno ažurirana
         remove_dialog:
             confirm_title: Ukloni Potvrdu
             confirm_ok: Da

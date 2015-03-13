@@ -241,7 +241,7 @@ oro_theme:
                 - gambit/css/less/main.less
             label: Gambit
             icon: gambit/images/favicon.ico
-            logo: gambit/images/logo-g.png
+            logo: gambit/images/tetida(1).png
 
 oro_assetic:
     css_debug: [theme]
