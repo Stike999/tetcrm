@@ -1,6 +1,6 @@
 <?php
 
-namespace Adit\Bundle\ProjectBundle\Tests\Controller;
+namespace Adit\Bundle\ProjektBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

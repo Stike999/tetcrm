@@ -1,0 +1,4 @@
+projekti_link:
+    resource:   "@AditProjektBundle/Controller"
+    type:   annotation
+    prefix: /projekt

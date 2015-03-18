@@ -1,4 +1,0 @@
-Adit\Bundle\ProjectBundle\Entity\Project:
-    properties:
-        naziv:
-            - NotBlank: ~

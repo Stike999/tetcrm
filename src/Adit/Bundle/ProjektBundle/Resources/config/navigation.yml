@@ -1,0 +1,22 @@
+oro_menu_config:
+    items:
+        projekti_tab:
+            label: Projekti
+            uri:   '#'
+            extras:
+                position: 300
+        projekti_tab_link:
+            label: Lista projekata
+            route: projekti_link
+            extras:
+                routes: ['/^projekti_link/']
+                description: Prikazi projekte
+    tree:
+        application_menu:
+            children:
+                projekti_tab:
+                    children:
+                        projekti_tab_link: ~
+ 
+oro_titles:
+    projekti_link: Prikazi projekte

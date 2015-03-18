@@ -1,2 +1,0 @@
-parameters:
-    adit_simple.project.entity.class: Adit\Bundle\ProjectBundle\Entity\Project

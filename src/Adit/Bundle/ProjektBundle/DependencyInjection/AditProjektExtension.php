@@ -1,6 +1,6 @@
 <?php
 
-namespace Adit\Bundle\ProjectBundle\DependencyInjection;
+namespace Adit\Bundle\ProjektBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class AditProjectExtension extends Extension
+class AditProjektExtension extends Extension
 {
     /**
      * {@inheritDoc}
@@ -24,6 +24,5 @@ class AditProjectExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-        $loader->load('form.yml');
     }
 }

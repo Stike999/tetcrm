@@ -1,0 +1,7 @@
+parameters:
+#    adit_projekt.example.class: Adit\Bundle\ProjektBundle\Example
+
+services:
+#    adit_projekt.example:
+#        class: %adit_projekt.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
