@@ -7,10 +7,9 @@ oro_menu_config:
                 position: 300
         projekti_tab_link:
             label: Lista projekata
-            route: projekti_link
-            extras:
-                routes: ['/^projekti_link/']
-                description: Prikazi projekte
+            route: oro_entity_index
+            routeParameters:
+                entityName: Extend_Entity_Projekt
     tree:
         application_menu:
             children:

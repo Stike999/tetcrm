@@ -1,0 +1,12 @@
+datagrid:
+    adit-projects-grid:
+        source:
+            type: orm
+            query:
+                select: [ p.povezani_klijenti_id, p.Naziv ]
+                from:
+                    - { table: oro_ext_projekt, alias:p }
+
+        columns:
+            Naziv:
+                label: 'Naziv'
