@@ -1,4 +1,4 @@
-{% extends "OroUIBundle:Default:index.html.twig" %}
+{% import 'OroDataGridBundle::macros.html.twig' as dataGrid %}
 {% block content %}
-    
-{% endblock content %}
+     {{ dataGrid.renderGrid('adit-projects-grid') }}
+{% endblock %}
