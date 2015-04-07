@@ -19,6 +19,9 @@
         "oro/crm": "1.6.*",
         "oro/crm-mail-chimp": "1.2.*"
     },
+    "config": {
+        "component-dir": "web/bundles/components"
+    },
     "scripts": {
         "post-install-cmd": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
