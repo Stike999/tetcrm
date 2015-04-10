@@ -17,7 +17,8 @@
     "require": {
         "oro/platform": "1.6.*",
         "oro/crm": "1.6.*",
-        "oro/crm-mail-chimp": "1.2.*"
+        "oro/crm-mail-chimp": "1.2.*",
+        "doctrine/doctrine-migrations-bundle": "dev-master"
     },
     "config": {
         "component-dir": "web/bundles/components"

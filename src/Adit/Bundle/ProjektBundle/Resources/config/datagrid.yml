@@ -3,10 +3,12 @@ datagrid:
         source:
             type: orm
             query:
-                select: [ p.povezani_klijenti_id, p.Naziv ]
+                select: [ status.id, status.status ]
                 from:
-                    - { table: oro_ext_projekt, alias:p }
+                    - { table: projectStatus, alias:status }
 
         columns:
-            Naziv:
-                label: 'Naziv'
+            id:
+                label: 'Id'
+            status:
+                label: 'Status'
