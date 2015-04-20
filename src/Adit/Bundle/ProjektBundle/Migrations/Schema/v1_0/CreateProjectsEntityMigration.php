@@ -10,6 +10,12 @@ use Oro\Bundle\MigrationBundle\Migration\QueryBag;
 
 class CreateProjectsEntityMigration implements ExtendExtensionAwareInterface, Migration
 {
+    private $extendExtension;
+
+    public function setExtendExtension(ExtendExtension $extendExtension)
+    {
+        $this->extendExtension = $extendExtension;
+    }
     /**
      * @inheritdoc
      */

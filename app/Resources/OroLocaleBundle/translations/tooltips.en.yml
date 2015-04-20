@@ -1,7 +1,7 @@
 oro.locale:
     form:
         tooltip:
-            languages: "Odaberite jezik koji se može koristiti za rpijevod email predložaka."
+            languages: "Odaberite jezik koji se može koristiti za prijevod email predložaka."
             locale: "Obuhvaća formatiranje brojeva, adresa, imena i datuma."
             location: " Ako je Formatiraj adresu po državi opcija isključena, ili nema posebnog formatiranja za državu, adrese će se formatirati po pravilima primarne lokacije."
             format_address_by_address_country: "S ovom opcijom uključenom, adrese se formatiraju po pravilima njihovih država. U suprotnom slučaju koristi se formatiranje po primarnoj lokaciji."
