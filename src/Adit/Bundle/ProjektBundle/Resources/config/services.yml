@@ -1,5 +1,8 @@
 parameters:
 #    adit_projekt.example.class: Adit\Bundle\ProjektBundle\Example
+    adit_project.projekt.status.entity.class:   Adit\Bundle\ProjektBundle\Entity\ProjectStatus
+    adit_project.projekt.type.entity.class:   Adit\Bundle\ProjektBundle\Entity\ProjectType
+    adit_project.projekt.entity.class:   Adit\Bundle\ProjektBundle\Entity\Project
 
 services:
 #    adit_projekt.example:

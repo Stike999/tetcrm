@@ -5,15 +5,19 @@ oro_menu_config:
             uri:   '#'
             extras:
                 position: 300
-        projekti_tab_link:
-            label: Lista projekata
-            route: projekti_link
+        projekt_statusi_tab_link:
+            label: Lista statusa
+            route: adit_statusi_link
+        projekt_tipovi_tab_link:
+            label: Lista tipova
+            route: adit_tipovi_link
     tree:
         application_menu:
             children:
                 projekti_tab:
                     children:
-                        projekti_tab_link: ~
+                        projekt_statusi_tab_link: ~
+                        projekt_tipovi_tab_link: ~
  
 oro_titles:
     projekti_link: Prikazi projekte

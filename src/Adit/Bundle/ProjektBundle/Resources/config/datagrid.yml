@@ -1,14 +1,68 @@
 datagrid:
-    adit-projects-grid:
+    adit-project-status-grid:
         source:
             type: orm
             query:
                 select: [ status.id, status.status ]
                 from:
-                    - { table: projectStatus, alias:status }
+                    - { table: %adit_project.projekt.status.entity.class%, alias:status }
 
         columns:
             id:
-                label: 'Id'
+                label: 'adit.project.grid.columns.id'
             status:
-                label: 'Status'
+                label: 'adit.project.grid.columns.status'
+        properties:
+            id: ~
+            update_link:
+                type:   url
+                route:  adit_status_update
+                params: [ id ]
+            delete_link:
+                type:   url
+                route:  adit_status_delete
+                params: [ id ]
+        actions:
+            update:
+                type:   navigate
+                label:  oro.grid.action.update
+                icon:   edit
+                link:   update_link
+            delete:
+                type:   navigate
+                label:  oro.grid.action.delete
+                icon:   trash
+                link:   delete_link
+    adit-project-type-grid:
+        source:
+            type: orm
+            query:
+                select: [ type.id, type.type ]
+                from:
+                    - { table: AditProjektBundle:ProjectType, alias:type }
+        columns:
+            id:
+                label: 'adit.project.grid.columns.id'
+            type:
+                label: 'adit.project.grid.columns.type'
+        properties:
+            id: ~
+            update_link:
+                type:   url
+                route:  adit_type_update
+                params: [ id ]
+            delete_link:
+                type:   url
+                route:  adit_type_delete
+                params: [ id ]
+        actions:
+            update:
+                type:   navigate
+                label:  oro.grid.action.update
+                icon:   edit
+                link:   update_link
+            delete:
+                type:   navigate
+                label:  oro.grid.action.delete
+                icon:   trash
+                link:   delete_link

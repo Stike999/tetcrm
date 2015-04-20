@@ -1,0 +1,13 @@
+{% extends 'OroUIBundle:actions:index.html.twig' %}
+{% set gridName = 'adit-project-type-grid' %}
+{% set entity_class= 'ProjectType' %}
+{% set pageTitle = 'Tipovi projekta' %}
+
+{% block navButtons %}
+    <div class="btn-group">
+        {{  UI.addButton ({
+            'path': path('adit_type_add'),
+            'entity_label': 'tip'
+        }) }}
+    </div>
+{% endblock %}

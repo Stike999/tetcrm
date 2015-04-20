@@ -1,0 +1,13 @@
+adit:
+    project:
+        grid:
+            columns:
+                id: 'Id'
+                status: 'Status'
+                type:   'Tip'
+        crud:
+            id: 'Id'
+            type.label: 'Tip'
+            status.label:   'Status'
+            update: 'Ažuriraj'
+            new:    'Dodaj'

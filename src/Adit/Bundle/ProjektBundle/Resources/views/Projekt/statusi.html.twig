@@ -1,0 +1,13 @@
+{% extends 'OroUIBundle:actions:index.html.twig' %}
+{% set gridName = 'adit-project-status-grid' %}
+{% set entity_class= 'ProjectStatus' %}
+{% set pageTitle = 'Statusi projekta' %}
+
+{% block navButtons %}
+    <div class="btn-group">
+        {{  UI.addButton ({
+            'path': path('adit_status_add'),
+            'entity_label': 'status'
+        }) }}
+    </div>
+{% endblock %}
